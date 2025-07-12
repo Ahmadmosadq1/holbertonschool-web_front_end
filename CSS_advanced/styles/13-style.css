@@ -1,5 +1,3 @@
-/* Based on styles/12-style.css */
-
 :root {
     /* Color variables */
     --color-primary: #d73953;
@@ -66,7 +64,7 @@
     font-weight: var(--font-weight-bold);
   }
   
-  /* Base font settings */
+  /* Base font sizing for responsive rem calculations */
   html {
     font-size: 62.5%;
   }
@@ -80,20 +78,28 @@
   }
   
   /* Links without default decoration */
-  a[href] {
+  a:link {
     color: var(--text-color);
     text-decoration: none;
   }
   
-  /* Pseudo classes for links */
-  a[href]:visited {
+  /* Visited link state */
+  a:visited {
     font-style: italic;
   }
   
-  a[href]:hover {
+  /* Hover link state */
+  a:hover {
     text-decoration: underline;
   }
   
-  a[href]:active {
+  /* Active link state */
+  a:active {
     background-color: var(--color-light-grey);
+  }
+  
+  /* Heading styles */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
   }
