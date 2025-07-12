@@ -1,3 +1,5 @@
+/* Based on styles/12-style.css */
+
 :root {
     /* Color variables */
     --color-primary: #d73953;
@@ -64,7 +66,7 @@
     font-weight: var(--font-weight-bold);
   }
   
-  /* Base font sizing for responsive rem calculations */
+  /* Base font settings */
   html {
     font-size: 62.5%;
   }
@@ -83,6 +85,7 @@
     text-decoration: none;
   }
   
+  /* Pseudo classes for links */
   a[href]:visited {
     font-style: italic;
   }
@@ -94,10 +97,3 @@
   a[href]:active {
     background-color: var(--color-light-grey);
   }
-  
-  /* Heading styles */
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-  }
-  
