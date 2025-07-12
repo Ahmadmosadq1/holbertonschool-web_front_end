@@ -105,7 +105,7 @@ ul.row {
     list-style: none;
 }
 
-[class^="col-"] {
+[class*='col-'] {
     float: left;
     padding: calc(var(--font-size-medium) / 2);
 }
